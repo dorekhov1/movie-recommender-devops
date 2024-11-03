@@ -1,0 +1,25 @@
+[tool.ruff]
+line-length = 99
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+unfixable = [
+    # Don't touch unused imports
+    'F401',
+]
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = 'all'

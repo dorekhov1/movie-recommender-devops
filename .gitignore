@@ -1,0 +1,8 @@
+.env
+.envrc
+.devenv/
+.direnv/
+.devenv.flake.nix
+model/
+port-forward.log
+*/__pycache__/*
